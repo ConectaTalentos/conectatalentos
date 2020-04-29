@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+  <meta charset="utf-8">
+
+  <title>Conecta Talentos | Cadastro</title>
+  <link rel="shortcut icon" href="img/favicon.ico" />
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
+  <script src="https://kit.fontawesome.com/09b36a73f0.js" crossorigin="anonymous"></script>
+  <link href="css/cadastro.css" rel="stylesheet">
+
+</head>
+
+<body> 
+  <nav class="navbar navbar-light">
+    <div class="justify-content-left align-items-left">
+      <i class="fas fa-arrow-left" style="font-size: 22px; color: #ffff;">    </i>
+      <a class="navbar-brand" href="Home.html" style="font-size: 24px; color: #ffff;"> Voltar</a>
+    </div>
+  </nav>
+  
+  </br>
+  </br>
+  </br>
+
+  <div class="container">
+    <div class="row justify-content-center ">
+
+      <form class="px-4 py-3">
+        <h3 class="text-center">CADASTRE-SE</h3>
+        <hr class="style1">
+
+        <div class="form-group row">
+          <label class="col-sm col-form-label">Nome Completo</label>
+          <div class="col-sm-12">
+            <input type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">CPF</label>
+          <div class="col-sm-12">
+            <input type="number" class="form-control" placeholder="000.000.000-00">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm col-form-label">Data de Nascimento</label>
+          <div class="col-sm-12">
+            <input type="date" class="form-control" placeholder="dd/mm/aaaa">
+          </div>
+        </div>
+
+        <fieldset class="form-group">
+        <div class="row">
+          <legend class="col-form-label col-sm-2 pt-0">Gênero</legend>
+          <div class="col-sm-10">
+            <div class="form-check">
+              <input class="form-check-input" type="radio" value="F" checked>
+              <label class="form-check-label" for="gridRadios1">
+                Feminino
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" value="M">
+              <label class="form-check-label" for="gridRadios2">
+                Masculino
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" value="O">
+              <label class="form-check-label" for="gridRadios3">
+                Outro
+              </label>
+            </div>
+          </div>
+        </div>
+        </fieldset>
+
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Endereço</label>
+          <div class="col-sm-12">
+            <input type="text" class="form-control" id="inputAddress" placeholder="Rua">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <div class="form-group col-sm-6">
+            <input type="number" class="form-control" placeholder="Número">
+          </div>
+          <div class="form-group col-sm-6">
+            <input type="text" class="form-control" placeholder="Bairro">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <div class="form-group col-md-6">
+            <input type="text" class="form-control" id="inputCity" placeholder="Cidade">
+          </div>
+          <div class="form-group col-md-6">
+            <select id="inputState" class="form-control">
+              <option selected>Estado</option>
+              <option>RN</option>
+              <option>RJ</option>
+              <option>BA</option>
+              <option>BA</option>
+            </select>
+          </div>
+        </div>
+        <hr class="style2">
+
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Email</label>
+          <div class="col-sm-12">
+            <input type="email" class="form-control" placeholder="nome@exemplo.com">
+          </div>
+        </div>
+
+        <div class="form-group row">
+          <label class="col-sm-2 col-form-label">Telefone</label>
+          <div class="col-sm-12">
+            <input type="tel" class="form-control" placeholder="(00) 0000-0000">
+          </div>
+        </div>
+        <hr class="style2">
+
+        <div class="form-group row">
+          <div class="form-group col-md-12">
+            <label>Escolaridade</label>
+            <select class="form-control">
+              <option selected>Selecione</option>
+              <option>Ens. Fundamental</option>
+              <option>Ens. Médio</option>
+              <option>Graduação</option>
+              <option>Pós-Graduação</option>
+            </select>
+          </div>
+          <div class="form-group col-md-12">
+            <label>Situação de Empregabilidade</label>
+            <select class="form-control">
+              <option selected>Selecione</option>
+              <option>Empregado</option>
+              <option>Autônomo</option>
+              <option>Estudante</option>
+              <option>Desempregado</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="form-group row col-sm">Área de Interesse</div>
+          <div class="form-group">
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Humanas
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Exatas
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Biológicas
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" id="gridCheck1">
+              <label class="form-check-label" for="gridCheck1">
+                Tecnológicas
+              </label>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-group">Enviar Currículo</label>
+            <div class="custom-file col-md-12">
+              <label class="custom-file-label" for="customFile">Procurar arquivo</label>
+              <input type="file" class="custom-file-input">
+              </br>
+            </div>
+          </div>
+          <hr class="style2">
+
+          <div class="form-group row">
+            <label class="col-sm col-form-label">Usuário</label>
+            <div class="col-sm-12">
+              <input type="text" class="form-control">
+            </div>
+          </div>
+  
+          <div class="form-group row">
+            <label class="col-sm-2 col-form-label">Senha</label>
+            <div class="col-sm-12">
+              <input type="password" class="form-control">
+            </div>
+          </div>
+          <hr class="style2">
+
+          <div class="form-group" >
+            <button type="submit" class="btn" style="background-color: #c6e466;">Cadastrar</button>
+          </div>
+
+        </div>
+      </form>
+    </div>
+  </div>
+  </br>
+  </br>
+  </br>
+
+</body>
+</html>

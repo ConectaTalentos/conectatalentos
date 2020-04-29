@@ -1,0 +1,14 @@
+body {
+  background-color: #ffff;
+  font-family: 'Montserrat', sans-serif;
+
+}
+nav {
+  background-color:Rgb(44, 62, 80);
+}
+form{
+  border:2px solid #c7e466;
+}
+hr.style1{
+	border-top: 3px solid Rgb(44, 62, 80);
+}
