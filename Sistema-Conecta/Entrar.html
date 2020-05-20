@@ -4,9 +4,11 @@
 <head>
 
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <title>Conecta Talentos | Entrar</title>
-    <link rel="shortcut icon" href="img/favicon.ico" />
+    <title>Entrar | Conecta Talentos</title>
+
+    <link rel="shortcut icon" href="img/favicon.png" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet"> 
     <script src="https://kit.fontawesome.com/09b36a73f0.js" crossorigin="anonymous"></script>
@@ -17,46 +19,58 @@
 <body>
   <nav class="navbar navbar-light">
     <div class="justify-content-left align-items-left">
-      <i class="fas fa-arrow-left" style="font-size: 22px; color: #ffff;">    </i>
-      <a class="navbar-brand" href="Home.html" style="font-size: 25px; color: #ffff;"> Voltar</a>
+      <i class="fas fa-arrow-left"></i>
+      <a class="navbar-brand" href="Home.html" style="color: #ffff;"> Voltar</a>
     </div>
   </nav>
-  
   </br>
-  </br>
+
+  <!--<div class="alert alert-light alert-dismissible fade show" role="alert">
+    <strong>Atenção!</strong> É necessário preencher todos os itens.
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+      <span aria-hidden="true">&times;</span>
+    </button>
+  </div>-->
+
   </br>
 
   <div class="container">
-    <div class="row justify-content-center align-items-center">
-      <form class="px-4 py-3">
-        <h3 class="text-center">LOGIN</h3>
-        <hr class="style1">
-        <div class="form-group">
-          <label for="exampleDropdownFormEmail1">Email</label>
-          <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@exemplo.com">
+        <div class="row justify-content-center align-items-center">
+          <form class="px-4 py-3">
+            <h3 class="text-center">LOGIN</h3>
+            <hr class="style1">
+            <div class="form-group">
+              <label for="exampleDropdownFormEmail1">Usuário</label>
+              <input type="text" class="form-control" id="usuario">
+            </div>
+            <div class="form-group">
+              <label for="exampleDropdownFormPassword1">Senha</label>
+              <input type="password" class="form-control" id="senha">
+            </div>
+            <div class="form-group row">
+              <legend class="col-form-label col-sm pt-0">Entrar como:</legend>
+              <div class="form-check form-check-inline">
+                <input class="form-check-input" type="radio" value="Candidato" id="candidato">
+                <label class="form-check-label">
+                  Candidato 
+                </label>
+                <input class="form-check-input" type="radio" value="Empresa" id="empresa">
+                <label class="form-check-label">
+                  Empresa
+                </label>
+              </div>
+            </div>
+            <button type="submit" class="btn" href="#" >Entrar</button>
+            <hr class="style1">
+            <div class="text-left">
+              <a href="CadastroCand.html" class="dropdown-item">Não possui uma conta? Cadastre-se </a>
+              <a href="#" class="dropdown-item">Esqueceu a senha?</a>
+            </div>
+          </form>
         </div>
-        <div class="form-group">
-          <label for="exampleDropdownFormPassword1">Senha</label>
-          <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="senha">
-        </div>
-        <div class="form-group">
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" id="dropdownCheck">
-            <label class="form-check-label" for="dropdownCheck">
-              Lembre-se de mim.
-            </label>
-          </div>
-        </div>
-        <button type="submit" class="btn" style="background-color: #c6e466;"><a href="dashboard/index.html">Entrar</a></button>
-        <hr class="style1">
-        <div class="text-left">
-          <a href="Cadastro.html" class="dropdown-item">Não possui uma conta? Cadastre-se </a>
-          <a href="#" class="dropdown-item">Esqueceu a senha?</a>
-        </div>
-      </form>
-        
-    </div>
   </div>
+  </br>
+  </br>
 
 
 </body>
