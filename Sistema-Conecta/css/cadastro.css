@@ -1,17 +1,63 @@
 body {
-    background-color: #ffff;
+    background-color: #b8b786;
     font-family: 'Montserrat', sans-serif;
   
 }
-nav {
-    background-color:Rgb(44, 62, 80);
+.navbar.navbar-light.bg-light{
+    background-color: #b8b786 !important;
+    padding-left: 120px;
+}
+a.navbar-brand{
+    color: #4c3b36 !important;
+    font-size: 16px;
 }
 form{
-    border:2px solid #c7e466;
+    background-color: #c7e446;
+    border: 3px solid #c3d273;
+    border-radius: 15px;
+}
+h3.text-center{
+    color: #4c3b36;
+}
+label{
+    color: #4c3b36;
+}
+legend.col-form-label.col-sm-2.pt-0{
+    color: #4c3b36;
+}
+div.form-group.row.col-sm{
+    color: #4c3b36;
+}
+.form-control{
+    border-radius: 12px;
+}
+.custom-file-label{
+    border-radius: 12px;
 }
 hr.style1{
-	border-top: 3px solid Rgb(44, 62, 80);
+	border-top: 3px solid #4c3b36;
 }
 hr.style2{
-	border-top: 2px solid rgba(44, 62, 80, 0.479);
+	border-top: 2px solid #4c3b36d0;
+}
+button.btn{
+    color: #b8b786;
+    background-color: #4c3b36;
+    border: #4c3b36;
+    border-radius: 10px;
+}
+button.btn{
+    color: #b8b786;
+    background-color: #4c3b36;
+    border: 1px solid #b8b686;
+    border-radius: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+button.btn:hover{
+    color: #4c3b36;
+    background-color: #b8b786;
+    border: 1px solid #4c3b36;
 }
