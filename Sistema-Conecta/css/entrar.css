@@ -1,14 +1,61 @@
 body {
-  background-color: #ffff;
+  background-color: #b8b786;
   font-family: 'Montserrat', sans-serif;
 
 }
-nav {
-  background-color:Rgb(44, 62, 80);
+.navbar.navbar-light.bg-light{
+  background-color: #b8b786 !important;
+  padding-left: 120px;
+}
+a.navbar-brand{
+  color: #4c3b36 !important;
+  font-size: 16px;
 }
 form{
-  border:2px solid #c7e466;
+  background-color: #c7e446;
+  border: 3px solid #c3d273;
+  border-radius: 15px;
+}
+h3{
+  color: #4c3b36;
+}
+label{
+  color: #4c3b36;
+}
+legend{
+  color: #4c3b36;
+}
+input.form-control{
+  border-radius: 12px;
+}
+button.btn{
+  width: 100%;
+  background-color: #4c3b36;
+  border: 1px solid #b8b686;
+  border-radius: 12px;
+}
+button.btn:hover{
+  background-color: #b8b786;
+  border: 1px solid #4c3b36;
+}
+a.button{
+  color: #b8b686;
+  padding-left: 8rem;
+  padding-right: 8rem;
+  padding-top: 8px;
+  padding-bottom: 8px;
+}
+a.button:hover{
+  color: #4c3b36;
+  text-decoration: none;
+}
+a.dropdown-item{
+  color: #4c3b36;
+}
+a.dropdown-item:hover{
+  color: #4c3b36;
+  background-color: #c3d273;
 }
 hr.style1{
-	border-top: 3px solid Rgb(44, 62, 80);
+	border-top: 2px solid #4c3b36;
 }
