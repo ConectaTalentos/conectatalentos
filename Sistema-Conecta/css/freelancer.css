@@ -25,7 +25,7 @@
   --gray: #6c757d;
   --gray-dark: #343a40;
   --primary: #c7e466;
-  --secondary: #2c3e50;
+  --secondary: #b8b786;
   --success: #28a745;
   --info: #17a2b8;
   --warning: #ffc107;
@@ -87,6 +87,8 @@ h1, h2, h3, h4, h5, h6 {
 p {
   margin-top: 0;
   margin-bottom: 1rem;
+  padding-left: 5rem;
+  padding-right: 5rem;
 }
 
 abbr[title],
@@ -398,7 +400,9 @@ h6, .h6 {
 }
 
 .lead {
-  font-size: 1.25rem;
+  text-align: justify;
+  font-size: 1.27rem;
+  color: #4c3b36;
   font-weight: 300;
 }
 
@@ -435,8 +439,9 @@ hr {
 
 small,
 .small {
-  font-size: 80%;
+  font-size: 14px;
   font-weight: 400;
+  color: #c7e466;
 }
 
 mark,
@@ -2236,7 +2241,8 @@ textarea.form-control {
 }
 
 .btn:hover {
-  color: #212529;
+  background-color: #c7e466dc;
+  color: #4c3b36;
   text-decoration: none;
 }
 
@@ -2255,15 +2261,9 @@ fieldset:disabled a.btn {
 }
 
 .btn-primary {
-  color: #fff;
+  color: #4c3b36;
   background-color: #c7e466;
   border-color: #c7e466;
-}
-
-.btn-primary:hover {
-  color: #fff;
-  background-color: #159a80;
-  border-color: #148f77;
 }
 
 .btn-primary:focus, .btn-primary.focus {
@@ -2719,14 +2719,14 @@ fieldset:disabled a.btn {
 }
 
 .btn-outline-light {
-  color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #4c3b36;
+  border-color: #4c3b36;
 }
 
 .btn-outline-light:hover {
-  color: #212529;
-  background-color: #f8f9fa;
-  border-color: #f8f9fa;
+  color: #4c3b36;
+  background-color: #c7e466;
+  border-color: #4c3b36;
 }
 
 .btn-outline-light:focus, .btn-outline-light.focus {
@@ -6215,7 +6215,7 @@ button.bg-primary:focus {
 }
 
 .bg-secondary {
-  background-color: #2c3e50 !important;
+  background-color: #b8b786 !important;
 }
 
 a.bg-secondary:hover, a.bg-secondary:focus,
@@ -7651,7 +7651,7 @@ button.bg-dark:focus {
 
 .pt-3,
 .py-3 {
-  padding-top: 1rem !important;
+  padding-top: 10px !important;
 }
 
 .pr-3,
@@ -7661,7 +7661,7 @@ button.bg-dark:focus {
 
 .pb-3,
 .py-3 {
-  padding-bottom: 1rem !important;
+  padding-bottom: 10px !important;
 }
 
 .pl-3,
@@ -7675,7 +7675,7 @@ button.bg-dark:focus {
 
 .pt-4,
 .py-4 {
-  padding-top: 1.5rem !important;
+  padding-top: 05px !important;
 }
 
 .pr-4,
@@ -9329,6 +9329,7 @@ button.bg-dark:focus {
 
 .text-uppercase {
   text-transform: uppercase !important;
+  color: #4c3b36 !important;
 }
 
 .text-capitalize {
@@ -9372,7 +9373,7 @@ a.text-primary:hover, a.text-primary:focus {
 }
 
 .text-secondary {
-  color: #2c3e50 !important;
+  color: #4c3b36 !important;
 }
 
 a.text-secondary:hover, a.text-secondary:focus {
@@ -9552,7 +9553,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .page-section {
-  padding: 6rem 0;
+  padding: 3rem;
 }
 
 .page-section .page-section-heading {
@@ -9564,6 +9565,7 @@ a.text-dark:hover, a.text-dark:focus {
   .page-section .page-section-heading {
     font-size: 3rem;
     line-height: 2.5rem;
+    color: #4c3b36
   }
 }
 
@@ -9579,9 +9581,9 @@ a.text-dark:hover, a.text-dark:focus {
   width: 100%;
   max-width: 7rem;
   height: 0.25rem;
-  background-color: #2c3e50;
+  background-color: #4c3b36;
   border-radius: 1rem;
-  border-color: #2c3e50 !important;
+  border-color: #4c3b36 !important;
 }
 
 .divider-custom .divider-custom-line:first-child {
@@ -9598,11 +9600,11 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .divider-custom.divider-light .divider-custom-line {
-  background-color: #fff;
+  background-color: #4c3b36;
 }
 
 .divider-custom.divider-light .divider-custom-icon {
-  color: #fff !important;
+  color: #4c3b36 !important;
 }
 
 .btn-xl {
@@ -9650,7 +9652,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link {
-  color: #fff;
+  color: #4c3b36;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:hover {
@@ -9658,7 +9660,7 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-  color: #fff;
+  color: #4c3b36;
 }
 
 #mainNav .navbar-nav li.nav-item a.nav-link.active {
@@ -9672,8 +9674,8 @@ a.text-dark:hover, a.text-dark:focus {
 
 @media (min-width: 992px) {
   #mainNav {
-    padding-top: 1.5rem;
-    padding-bottom: 1.5rem;
+    padding-top: 0rem;
+    padding-bottom: 0rem;
     transition: padding-top 0.3s, padding-bottom 0.3s;
   }
   #mainNav .navbar-brand {
@@ -9684,11 +9686,11 @@ a.text-dark:hover, a.text-dark:focus {
     margin-top: 0;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
-    color: #fff;
+    color: #4c3b36;
     background: #c7e466;
   }
   #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
-    color: #fff;
+    color: #4c3b36;
     background: #c7e466;
   }
   #mainNav.navbar-shrink {
@@ -9701,26 +9703,28 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 .masthead {
-  padding-top: calc(6rem + 74px);
-  padding-bottom: 6rem;
+  padding-top: 4rem;
+  padding-bottom: 4rem;
 }
 
 .masthead .masthead-heading {
   font-size: 2.75rem;
   line-height: 2.75rem;
+  color: #4c3b36;
 }
 
 .masthead .masthead-subheading {
   font-size: 1.25rem;
+  color: #4c3b36;
 }
 
 .masthead .masthead-avatar {
   width: 15rem;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 992px){
   .masthead {
-    padding-top: calc(6rem + 104px);
+    padding-top: 6rem;
     padding-bottom: 6rem;
   }
   .masthead .masthead-heading {
@@ -9730,10 +9734,6 @@ a.text-dark:hover, a.text-dark:focus {
   .masthead .masthead-subheading {
     font-size: 1.5rem;
   }
-}
-
-.portfolio {
-  margin-bottom: -30px;
 }
 
 .portfolio .portfolio-item {
@@ -9752,7 +9752,7 @@ a.text-dark:hover, a.text-dark:focus {
   left: 0;
   transition: all 0.2s ease-in-out;
   opacity: 0;
-  background-color: rgba(26, 188, 156, 0.9);
+  background-color:#c4d273c2;
 }
 
 .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -9813,9 +9813,9 @@ a.text-dark:hover, a.text-dark:focus {
   top: 2em;
   display: block;
   margin: 0;
-  transition: top 0.3s ease, opacity 0.3s ease;
+  transition: top 0.3s ease;
+  opacity: 0.3s ease;
   vertical-align: middle;
-  vertical-align: baseline;
   opacity: 0;
 }
 
@@ -9840,10 +9840,18 @@ form .row:first-child .floating-label-form-group {
 .footer {
   padding-top: 5rem;
   padding-bottom: 5rem;
-  background-color: #2c3e50;
+  background-color:#b8b786;
   color: #fff;
 }
 
 .copyright {
-  background-color: #1a252f;
+  background-color: #838257;
+}
+.text-rodape{
+ color: #4c3b36;
+ text-align:center;
+ font-size: 19px;
+}
+.text-rodape:hover{
+  color: #4c3b36;
 }
