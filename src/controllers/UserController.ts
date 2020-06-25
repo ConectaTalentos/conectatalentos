@@ -26,6 +26,22 @@ class UserController {
       numero
     } = request.body
 
+    const emailExits = await prisma.user.findOne({
+      where: { email }
+    })
+
+    const cpfExits = await prisma.user.findOne({
+      where: { cpf }
+    })
+
+    if (cpfExits) {
+      return response.status(400).json({ message: 'CPF já cadastrado' })
+    }
+
+    if (emailExits) {
+      return response.status(400).json({ message: 'Email já cadastrado' })
+    }
+
     const password_hash = await bcrypt.hash(password, 8)
 
     const user = await prisma.user.create({

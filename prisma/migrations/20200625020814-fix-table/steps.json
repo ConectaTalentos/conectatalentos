@@ -1,0 +1,29 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "UpdateField",
+      "model": "User",
+      "field": "cpf",
+      "type": "Float"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "User",
+      "field": "telefone",
+      "type": "Float"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "Addres",
+      "field": "numero",
+      "type": "Float"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "Addres",
+      "field": "cep",
+      "type": "Float"
+    }
+  ]
+}

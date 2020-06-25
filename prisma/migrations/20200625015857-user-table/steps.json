@@ -1,0 +1,29 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "UpdateField",
+      "model": "User",
+      "field": "cpf",
+      "type": "Int"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "User",
+      "field": "telefone",
+      "type": "Int"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "Addres",
+      "field": "numero",
+      "type": "Int"
+    },
+    {
+      "tag": "UpdateField",
+      "model": "Addres",
+      "field": "cep",
+      "type": "Int"
+    }
+  ]
+}
