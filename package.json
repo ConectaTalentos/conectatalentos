@@ -8,6 +8,9 @@
     "build": "babel src --extensions \".js,.ts\" --out-dir dist --copy-files --no-copy-ignored",
     "start": "node dist/server.js",
     "dev": "ts-node-dev -r tsconfig-paths/register --respawn --transpileOnly --ignore-watch node_modules --no-notify src/server.ts",
+    "migrate:save": "prisma migrate save --experimental",
+    "migrate:up": "prisma migrate up --experimental",
+    "generate": "prisma generate",
     "test": "jest"
   },
   "devDependencies": {
@@ -37,6 +40,9 @@
     "typescript": "^3.9.5"
   },
   "dependencies": {
-    "express": "^4.17.1"
+    "@prisma/cli": "^2.1.1",
+    "@prisma/client": "^2.1.1",
+    "express": "^4.17.1",
+    "pg": "^8.2.1"
   }
 }

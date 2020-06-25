@@ -1,0 +1,40 @@
+{
+  "version": "0.3.14-fixed",
+  "steps": [
+    {
+      "tag": "CreateField",
+      "model": "Addres",
+      "field": "numero",
+      "type": "Float",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Addres",
+      "field": "bairro",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Addres",
+      "field": "cidade",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Addres",
+      "field": "estado",
+      "type": "String",
+      "arity": "Required"
+    },
+    {
+      "tag": "CreateField",
+      "model": "Addres",
+      "field": "cep",
+      "type": "Float",
+      "arity": "Required"
+    }
+  ]
+}
