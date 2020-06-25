@@ -1,5 +1,6 @@
 import { PrismaClient } from '@prisma/client'
 import { Request, Response } from 'express'
+import bcrypt from 'bcryptjs'
 
 const prisma = new PrismaClient()
 
@@ -21,17 +22,18 @@ class UserController {
       bairro,
       cep,
       cidade,
-      estado,
+      uf,
       numero
-
     } = request.body
+
+    const password_hash = await bcrypt.hash(password, 8)
 
     const user = await prisma.user.create({
       data: {
         name,
         email,
         login,
-        password,
+        password: password_hash,
         area,
         escolaridade,
         cpf,
@@ -45,7 +47,7 @@ class UserController {
             bairro,
             cep,
             cidade,
-            estado,
+            uf,
             numero
           }
         }
@@ -73,9 +75,9 @@ class UserController {
         sit_emprego: true,
         addres: {
           select: {
-            bairro: true,
+            rua: true,
             cidade: true,
-            estado: true
+            uf: true
           }
         }
       }

@@ -42,6 +42,8 @@
   "dependencies": {
     "@prisma/cli": "^2.1.1",
     "@prisma/client": "^2.1.1",
+    "@types/bcryptjs": "^2.4.2",
+    "bcryptjs": "^2.4.3",
     "express": "^4.17.1",
     "pg": "^8.2.1"
   }
