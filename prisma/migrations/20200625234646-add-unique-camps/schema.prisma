@@ -4,7 +4,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = env("DATABASE_URL")
+  url = "***"
 }
 
 model User {
@@ -15,7 +15,7 @@ model User {
   area            String
   login           String   @unique
   password        String
-  image           String?
+  image           String
   data_nascimento String
   genero          String
   telefone        Float
