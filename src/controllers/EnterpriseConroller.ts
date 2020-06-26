@@ -51,7 +51,7 @@ class EnterpriseController {
         name,
         login,
         email,
-        password: password_hash,
+        password_hash,
         cnpj,
         telefone,
         addresInterprise: {

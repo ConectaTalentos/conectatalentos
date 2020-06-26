@@ -49,7 +49,7 @@ class UserController {
         name,
         email,
         login,
-        password: password_hash,
+        password_hash,
         area,
         escolaridade,
         cpf,

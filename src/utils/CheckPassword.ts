@@ -1,5 +1,5 @@
 import bcrypt from 'bcryptjs'
 
-export default function checkPassword(password: string, password_hash: string) {
-  return bcrypt.compare(password, password_hash)
+export default async function checkPassword(password: string, password_hash: string) {
+  return await bcrypt.compare(password, password_hash)
 }
