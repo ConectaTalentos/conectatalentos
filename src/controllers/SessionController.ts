@@ -18,7 +18,7 @@ class SessionController {
       return response.status(401).json({ message: 'Verifique o email digitado' })
     }
 
-    if (!(checkPassword(password, user.password_hash))) {
+    if (!(await checkPassword(password, user.password_hash))) {
       return response.status(401).json({ message: 'Verifique sua senha' })
     }
 
